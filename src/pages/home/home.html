@@ -1,14 +1,12 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding id="welcome">
+    <!-- <ion-list>
+        <ion-item class="item-divider" *ngFor="let item of items">
+            <p>{{item.title}}</p>
+        </ion-item>
+    </ion-list> -->
+    <img src="assets/imgs/geek.png" />
+    <h1>Welcome to Geeks</h1>
+    <div>Let's get hooked up here...</div>
+    <button ion-button block class="btn-margin-top" (click)="signup()">Signup</button>
+    <button ion-button block color="secondary" (click)="login()">Login</button>
 </ion-content>
